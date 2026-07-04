@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Technogrova — Web Development Studio | Custom Websites & Digital Growth</title>
+<meta name="description" content="Technogrova is a web development studio building custom websites, e-commerce stores, and AI-powered digital experiences. Where code takes root.">
+<meta name="keywords" content="web development, website design, e-commerce development, SEO, custom websites, Technogrova">
+<meta name="author" content="Technogrova">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Technogrova — Web Development Studio">
+<meta property="og:description" content="Custom websites, e-commerce stores, and digital experiences built from the ground up. Where code takes root.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_IN">
+
+<meta name="theme-color" content="#0A121F">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌱</text></svg>">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,500&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ===== HEADER ===== -->
+<header class="site-header" id="top">
+  <div class="wrap header-inner">
+    <a href="#top" class="logo" aria-label="Technogrova home">
+      <span class="logo-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="28" height="28"><path d="M6 22 L16 8 L26 22" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="16" cy="8" r="2.2" fill="currentColor"/></svg>
+      </span>
+      Technogrova
+    </a>
+
+    <nav class="main-nav" id="main-nav" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#contact" class="btn btn-ghost nav-cta">Start a project</a>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="dot-field-container" id="dotField" aria-hidden="true">
+      <canvas id="dotFieldCanvas"></canvas>
+    </div>
+    <div class="wrap hero-inner">
+      <div class="hero-copy" data-reveal>
+        <p class="eyebrow">Web development studio</p>
+        <h1>Where code<br>takes <em>root.</em></h1>
+        <p class="hero-sub">Technogrova designs and builds custom websites, online stores, and AI-assisted digital experiences — planted with clean code and grown into something you're proud to launch.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Start a project</a>
+          <a href="#work" class="btn btn-outline">View our work</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about" id="about">
+    <div class="wrap about-inner">
+      <p class="eyebrow">About the studio</p>
+      <div class="about-grid">
+        <h2 data-reveal="left">A young studio, built to grow with its clients.</h2>
+        <div class="about-text" data-reveal="right">
+          <p>Technogrova is a web development studio founded on a simple idea: every business, however small, deserves a website that feels considered — not templated. We work directly with clients from first sketch to final deploy, so nothing gets lost in translation.</p>
+          <p>Because we're just getting started, you get a founder's full attention on every project: fast turnarounds, direct communication, and pricing that reflects a studio building its first roots — not its hundredth invoice.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services" id="services">
+    <div class="wrap">
+      <p class="eyebrow">What we do</p>
+      <h2>Services</h2>
+
+      <div class="services-grid">
+        <article class="service-card" data-reveal>
+          <span class="service-index">01</span>
+          <h3>Custom Website Design</h3>
+          <p>Hand-built, responsive websites designed around your brand — not a page-builder template.</p>
+        </article>
+
+        <article class="service-card" data-reveal>
+          <span class="service-index">02</span>
+          <h3>E-commerce Development</h3>
+          <p>Online stores with product catalogs, cart and checkout flows, and clean admin-friendly structure.</p>
+        </article>
+
+        <article class="service-card" data-reveal>
+          <span class="service-index">03</span>
+          <h3>Business &amp; Portfolio Sites</h3>
+          <p>Fast, credible websites for clinics, studios, agencies, and local businesses that need to look established from day one.</p>
+        </article>
+
+        <article class="service-card" data-reveal>
+          <span class="service-index">04</span>
+          <h3>SEO &amp; Performance</h3>
+          <p>Clean semantic markup, fast load times, and on-page SEO fundamentals so people can actually find you.</p>
+        </article>
+
+        <article class="service-card" data-reveal>
+          <span class="service-index">05</span>
+          <h3>AI Chatbot Integration</h3>
+          <p>Conversational assistants wired into your site to answer visitor questions and capture leads around the clock.</p>
+        </article>
+
+        <article class="service-card" data-reveal>
+          <span class="service-index">06</span>
+          <h3>Ongoing Support</h3>
+          <p>Post-launch maintenance, content updates, and small fixes so the site keeps working as your business grows.</p>
+        </article>
+      </div>
+
+      <!-- Process -->
+      <div class="process">
+        <div class="process-step" data-reveal>
+          <span class="process-num">01</span>
+          <h4>Discover</h4>
+          <p>We talk through your business, goals, and what the site needs to do.</p>
+        </div>
+        <div class="process-step" data-reveal>
+          <span class="process-num">02</span>
+          <h4>Build</h4>
+          <p>Design and development happen in short, visible stages — you see progress early.</p>
+        </div>
+        <div class="process-step" data-reveal>
+          <span class="process-num">03</span>
+          <h4>Launch</h4>
+          <p>We deploy, test on real devices, and hand over a site you can actually maintain.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WORK / PORTFOLIO ===== -->
+  <section class="work" id="work">
+    <div class="wrap">
+      <p class="eyebrow">Selected work</p>
+      <h2>Demo Projects</h2>
+      <p class="section-sub">A few builds from our studio. Live demo links go here as each project is ready to share.</p>
+
+      <div class="work-grid">
+
+        <!-- PROJECT CARD 1 — replace title, description, category and href -->
+        <article class="work-card" data-reveal>
+          <div class="work-thumb" style="--tint:#8A5A34"><span>E-commerce</span></div>
+          <div class="work-body">
+            <h3>[ E-commerce Project Title ]</h3>
+            <p>Short description of the store — what it sells, and what you built (catalog, cart, chatbot, etc).</p>
+            <a class="work-link" href="https://prabhav008.github.io/trendymart/" target="_blank" rel="noopener">View live demo →</a>
+          </div>
+        </article>
+
+        <!-- PROJECT CARD 2 -->
+        <article class="work-card" data-reveal>
+          <div class="work-thumb" style="--tint:#5B6B4F"><span>Real Estate</span></div>
+          <div class="work-body">
+            <h3>[ Real Estate Project Title ]</h3>
+            <p>Short description — property listings, inquiry forms, or whatever the site is built around.</p>
+            <a class="work-link" href="https://prabhav008.github.io/e-state-demo-website/" target="_blank" rel="noopener">View live demo →</a>
+          </div>
+        </article>
+
+        <!-- PROJECT CARD 3 -->
+        <article class="work-card" data-reveal>
+          <div class="work-thumb" style="--tint:#4F6B68"><span>Healthcare</span></div>
+          <div class="work-body">
+            <h3>[ Clinic / Healthcare Project Title ]</h3>
+            <p>Short description — booking flow, services list, or the clinic's key selling points.</p>
+            <a class="work-link" href="#" target="_blank" rel="noopener">View live demo →</a>
+          </div>
+        </article>
+
+        <!-- PROJECT CARD 4 -->
+        <article class="work-card" data-reveal>
+          <div class="work-thumb" style="--tint:#6B4F5E"><span>Interior / Hospitality</span></div>
+          <div class="work-body">
+            <h3>[ Interior / Hospitality Project Title ]</h3>
+            <p>Short description — gallery layout, booking, or whatever made this build distinctive.</p>
+            <a class="work-link" href="https://prabhav008.github.io/artrise-interior/" target="_blank" rel="noopener">View live demo →</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section class="education" id="education">
+    <div class="wrap education-inner">
+      <div>
+        <p class="eyebrow">Background</p>
+        <h2>Education &amp; Certifications</h2>
+      </div>
+
+      <ul class="edu-list">
+        <li class="edu-item" data-reveal>
+          <div class="edu-mark" aria-hidden="true"></div>
+          <div>
+            <h3>Diploma in Computer Engineering</h3>
+            <p>Currently pursuing — foundational coursework in programming, data structures, and systems, applied directly to client web projects.</p>
+          </div>
+        </li>
+        <li class="edu-item" data-reveal>
+          <div class="edu-mark" aria-hidden="true"></div>
+          <div>
+            <h3>AI &amp; Data Science Internship — Certification in progress</h3>
+            <p>Hands-on internship experience applying AI and data science fundamentals, feeding directly into features like the studio's chatbot and automation work.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== WHY TECHNOGROVA (trust section, in place of testimonials) ===== -->
+  <section class="why">
+    <div class="wrap why-inner">
+      <p class="eyebrow">Why Technogrova</p>
+      <h2>New studio. No shortcuts.</h2>
+      <p class="section-sub">We haven't collected client testimonials yet — because we're just getting started. Here's what you get by working with us early:</p>
+
+      <div class="why-grid">
+        <div class="why-item" data-reveal>
+          <h3>Direct access</h3>
+          <p>You talk to the person actually building your site — no account managers in between.</p>
+        </div>
+        <div class="why-item" data-reveal>
+          <h3>Fast turnaround</h3>
+          <p>Small studio, small overhead — projects move quickly without endless approval chains.</p>
+        </div>
+        <div class="why-item" data-reveal>
+          <h3>Modern stack</h3>
+          <p>Clean, hand-written HTML/CSS/JS with modern tooling where it earns its place — nothing bloated.</p>
+        </div>
+        <div class="why-item" data-reveal>
+          <h3>Honest pricing</h3>
+          <p>Straightforward quotes with no padded agency fees.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact">
+    <div class="wrap contact-inner">
+      <div class="contact-intro" data-reveal>
+        <p class="eyebrow">Get in touch</p>
+        <h2>Let's build something.</h2>
+        <p class="section-sub">Send a quick brief and we'll get back to you — usually within a day.</p>
+
+        <ul class="contact-details">
+          <li>
+            <span class="contact-label">Email</span>
+            <a href="mailto:technogrova77@gmail.com">technogrova77@gmail.com</a>
+          </li>
+          <li>
+            <span class="contact-label">Phone</span>
+            <a href="tel:+919313220611">+91 93132 20611</a> &nbsp;/&nbsp; <a href="tel:+916356402548">+91 63564 02548</a>
+          </li>
+          <li>
+            <span class="contact-label">Instagram</span>
+            <a href="https://www.instagram.com/technogrova.official" target="_blank" rel="noopener">@technogrova.official</a>
+          </li>
+        </ul>
+      </div>
+
+      <form class="contact-form" id="contactForm" data-reveal novalidate>
+        <!-- Replace YOUR_FORM_ID with your Formspree endpoint (see setup notes) -->
+        <input type="hidden" name="_subject" value="New project inquiry — Technogrova">
+
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" autocomplete="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" autocomplete="email" required>
+
+        <label for="projectType">Project type</label>
+        <select id="projectType" name="projectType">
+          <option>Custom website</option>
+          <option>E-commerce store</option>
+          <option>Business / portfolio site</option>
+          <option>SEO / performance</option>
+          <option>Something else</option>
+        </select>
+
+        <label for="message">Tell us about your project</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit" class="btn btn-primary" id="submitBtn">Send request</button>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <a href="#top" class="logo logo--footer">Technogrova</a>
+    <nav aria-label="Footer">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <p class="footer-copy">© <span id="year"></span> Technogrova. Where code takes root.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
