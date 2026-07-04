@@ -53,7 +53,7 @@ if (prefersReducedMotion) {
 //        4) Every submission will land in that inbox — readable from
 //           Gmail on mobile or desktop, no extra app needed.
 // ==========================================================================
-const FORM_ENDPOINT = 'https://formspree.io/f/YOUR_FORM_ID';
+const FORM_ENDPOINT = 'https://formspree.io/f/xvzjdvoj';
 
 const contactForm = document.getElementById('contactForm');
 const formStatus = document.getElementById('formStatus');
