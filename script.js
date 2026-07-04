@@ -62,12 +62,6 @@ const submitBtn = document.getElementById('submitBtn');
 contactForm.addEventListener('submit', async (e) => {
   e.preventDefault();
 
-  if (FORM_ENDPOINT.includes('YOUR_FORM_ID')) {
-    formStatus.textContent = 'Form isn\u2019t connected yet — add your Formspree endpoint in script.js.';
-    formStatus.className = 'form-status error';
-    return;
-  }
-
   submitBtn.disabled = true;
   submitBtn.textContent = 'Sending…';
   formStatus.textContent = '';
